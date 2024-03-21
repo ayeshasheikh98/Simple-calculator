@@ -1,7 +1,6 @@
-#! /usr/bin/env code
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import { first } from "rxjs";
-
 // Asking Question from Users through Inquirer
 
 let answers = await inquirer.prompt([
